@@ -1,0 +1,16 @@
+{
+   "name": "Assignment 3: Mars Rover",
+   "version": "2.0.0",
+   "description": "Mars Rover assignment that uses TDD to guide the creation of new classes and methods",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest"
+   },
+   "type": "module",
+   "author": "London Brumleve",
+   "license": "ISC",
+   "devDependencies": {
+      "jest": "^25.2.2",
+      "supertest": "^6.3.3"
+   }
+}

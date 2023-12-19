@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mars Rover Simulator</title>
+        <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        <script type="module" src = "interface.js"></script>
+        <script type="module" src = "rover.js"></script>
+        <script type="module" src = "message.js"></script>
+        <script type="module" src = "command.js"></script>
+        <script type="module" src = "./spec/command.spec.js"></script>
+
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Mars Rover Simulator</h1>
+        </div>
+        <div >
+            <h3 class="leftAlign">Rover Status:</h2>
+            <p class = "leftAlign" id = "coordinateStatus"></p>
+        </div>
+        <div id = "marsBackground">
+            <img src = "./images/Rover_icon.png" height = "75" width = "75" id = "rover"/>
+            <img src = "./images/Water_Searching_Icon.png" height = "45" width = "45" id = "water"/>
+        </div>
+            <div class="center-block">
+                <button id="up">▲</button> <br> 
+                <button id="left">◄</button> &nbsp &nbsp &nbsp &nbsp &nbsp
+                <button id="right">►</button> <br> 
+                <button id="down">▼</button> <br>
+                <button id = "solarCharging" class="addMore" title="Use solar charging to charge rover by 25W.">Solar Charging</button>
+                <button id = "hillClimbing" class="addMore" title="Use hill climbing mode for hills and rough terrain. Hill climbing uses 10W per move.">Hill Climbing</button>
+                <button id = "rimfax" class="addMore" title="Use Rover Imager for Mars' Subsurface Exploration (RIMFAX) to search for water beneath Mars' surface.">RIMFAX</button> <br>
+                <button id = "missionAbort" class="addMore" title="Click to abort.">Abort Mission</button>
+                </div>
+                <div id = "grid">
+                    <img src = "./images/Water_Found_Icon.png" id ="waterFound" style = "visibility:hidden"/>  
+                </div>
+    </body>
+</html>

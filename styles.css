@@ -1,0 +1,128 @@
+#marsBackground {
+    background-image: url("./images/MarsSurface70Opacity.png");
+    display: inline-block;
+    height: 325px;
+    width: 500px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#spaceShuttleHeight {
+    display: inline-block;
+}
+
+.center-block {
+    text-align: center; 
+    display: inline-block;
+    padding-left: 50px;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+.flex-container {
+    display: inline-flex;
+    vertical-align: top;
+    margin-left: 100px;
+  }
+
+.centered {
+    text-align: center;
+}
+
+.leftAlign {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.bottomMargin {
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#rover {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 100%;
+}
+
+.header {
+    background-color: #282c34;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  button {
+    background-color: #5c94ce;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color:#4271a3;
+}
+
+.addMore{
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+  }
+
+  td {
+    text-align: left;
+    color: #354a5f;
+    font-size: large;
+    text-align: left;
+  }
+
+  #water {
+    visibility: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #waterFound {
+    display: absolute;
+    margin-top: 10px;
+    margin-left: -55px;
+    width: 75px
+  }
+
+  #grid {
+    position: absolute;
+    /* margin-left: 100px; */
+    /* height: 325px;
+    width: 500px; */
+    display: grid;
+    grid-template-columns: 
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto;
+
+    grid-template-rows: 
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto;
+
+    right: 30px;
+    top: 140px;
+    background-color: lightgray;
+    height: 162.5px;
+    width: 250px;
+}
+
